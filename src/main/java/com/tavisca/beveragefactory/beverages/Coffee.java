@@ -12,9 +12,9 @@ import com.tavisca.beveragefactory.ingredients.Water;
 
 public class Coffee extends Beverage {
 	
-	static List<Ingredients> ingredientList = new ArrayList<>();
+	List<Ingredients> ingredientList = new ArrayList<>();
 		
-	static {
+	{
 		
 		ingredientList.add(new CoffeePowder());
 		ingredientList.add(new Milk());

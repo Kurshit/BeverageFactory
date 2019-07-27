@@ -13,7 +13,7 @@ public class OrderBeverage {
 
 	public static void main(String[] args) {
 		
-		String input1 = "Chaai,-Sugar,Chaai";
+		String input1 = "Chaai,-Sugar,-Milk";
 		
 		OrderBeverage orderBeverage = new OrderBeverage();
 		

@@ -8,7 +8,7 @@ public class Tea extends Ingredients {
 	
 	@Override
 	public double cost() {
-		return 3;
+		return 2;
 	}
 
 	@Override

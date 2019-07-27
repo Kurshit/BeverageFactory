@@ -11,9 +11,9 @@ import com.tavisca.beveragefactory.ingredients.Water;
 
 public class Chaai extends Beverage {
 	
-	static List<Ingredients> ingredientList = new ArrayList<>();
+	List<Ingredients> ingredientList = new ArrayList<>();
 		
-	static {
+	{
 		
 		ingredientList.add(new Tea());
 		ingredientList.add(new Milk());
