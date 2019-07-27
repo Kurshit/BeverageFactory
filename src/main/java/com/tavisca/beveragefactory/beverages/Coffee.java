@@ -22,7 +22,7 @@ public class Coffee extends Beverage {
 		ingredientList.add(new Water());		
 	}
 	
-	public void exclude(List<String> excludedItemsList) {
+	public void exclude(List<String> excludedItemsList) throws Exception {
 		
 		for(String item : excludedItemsList) {
 			
@@ -32,6 +32,10 @@ public class Coffee extends Beverage {
 				ingredientList.remove(beverage);
 			}
 			
+		}
+		
+		if(ingredientList.isEmpty()) {
+			throw new Exception("Can not exclude all ingredients");
 		}
 		
 	}

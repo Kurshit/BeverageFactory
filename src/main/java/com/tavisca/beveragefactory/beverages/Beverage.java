@@ -14,7 +14,7 @@ public abstract class Beverage {
 	
 	public abstract String description();
 	
-	public void exclude(List<String> excludedItemsList) {
+	public void exclude(List<String> excludedItemsList)  throws Exception {
 		
 	}
 

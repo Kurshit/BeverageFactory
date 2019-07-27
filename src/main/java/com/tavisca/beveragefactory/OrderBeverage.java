@@ -11,9 +11,9 @@ public class OrderBeverage {
 	
 	BeverageFactory factory = new BeverageFactory();
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
-		String input1 = "Chaai,-Sugar,-Milk";
+		String input1 = "Chaai,-Sugar,-Milk,-Tea,-Water";
 		
 		OrderBeverage orderBeverage = new OrderBeverage();
 		
@@ -22,7 +22,7 @@ public class OrderBeverage {
 	}
 	
 	
-	public double totalBill(String orderInput) {
+	public double totalBill(String orderInput) throws Exception {
 		
 		HashMap<String, List<String>> orderMap = parseOrder(orderInput);
 		
